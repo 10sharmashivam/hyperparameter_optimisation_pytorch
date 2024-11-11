@@ -1,6 +1,6 @@
 # Hyperparameter optimization study for a PyTorch CNN with Optuna.
 
-This project includes a hyperparameter optimization study of a PyTorch 
+Hyperparameter optimization study of a PyTorch 
 Convolutional Neural Network for the MNIST dataset of handwritten digits using 
 the hyperparameter optimization framework Optuna.
 
@@ -18,11 +18,6 @@ The CNN hyperparameters chosen to be optimized are:
 After the optimization is completed, the program will provide some statistics
 about the study and it will show the parameters of the best trial. It will also
 display the overall results and save them in a .csv file for future reference. Lastly, it will find and display the most important hyperparameters based on completed trials in the given study.
-
-### About the dataset
-The MNIST dataset contains 60,000 training images and 10,000 testing images,
-where each sample is a small, square, 28×28 pixel grayscale image of 
-handwritten single digits between 0 and 9.
 
 ### Project Structure
 ```bash
@@ -51,6 +46,11 @@ my_pytorch_optuna_project/
 ├── README.md               # Project documentation (overview, instructions)
 └── main.py                 # Main execution file for training and evaluation
 ```
+
+### About the dataset
+The MNIST dataset contains 60,000 training images and 10,000 testing images,
+where each sample is a small, square, 28×28 pixel grayscale image of 
+handwritten single digits between 0 and 9.
 
 ### Technologies
 ------------
