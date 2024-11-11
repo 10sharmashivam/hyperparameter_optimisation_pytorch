@@ -65,7 +65,7 @@ The project is created with:
 
 To run this project, install it locally using:
 ```
-git clone https://github.com/elena-ecn/optuna-optimization-for-PyTorch-CNN.git
+git clone https://github.com/10sharmashivam/hyperparameter_optimisation_pytorch.git
 ```
 
 The following dependencies need to be installed:
