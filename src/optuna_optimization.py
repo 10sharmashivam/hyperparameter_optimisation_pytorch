@@ -10,9 +10,6 @@ handwritten single digits between 0 and 9.
 
 This script requires installing the following packages:
   torch, pandas, optuna
-
-Author: elena-ecn
-Date: 2021
 """
 
 import os
